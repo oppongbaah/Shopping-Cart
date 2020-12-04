@@ -1,0 +1,41 @@
+  <% if(fashion.category == "shoe") { %>
+
+    <ul>
+      <% for (const [key, value] of Object.entries(fashion.shoeSize.toJSON())) { %>
+
+        <% if (key == 42) { %>
+          <li id="checked">
+            <label class="size-label" for="<%= key %>"> <%= key %> </label>
+            <input class="size" checked type="checkbox" id="<%= key %>" name="<%= key %>" value="<%= value %>">
+          </li>
+        <% } else { %>
+          <li>
+            <label class="size-label" for="<%= key %>"> <%= key %> </label>
+            <input class="size" type="checkbox" id="<%= key %>" name="<%= key %>" value="<%= value %>">
+          </li>
+        <% } %>
+
+      <% } %>
+    </ul>
+
+  <% } else { %>
+
+    <ul>
+      <% for (const [key, value] of Object.entries(fashion.shirtSize.toJSON())) { %>
+
+        <% if (key == "L") { %>
+          <li id="checked">
+            <label class="size-label" for="<%= key %>"> <%= key %> </label>
+            <input class="size" checked type="checkbox" id="<%= key %>" name="<%= key %>" value="<%= value %>">
+          </li>
+        <% } else { %>
+          <li>
+            <label class="size-label" for="<%= key %>"> <%= key %> </label>
+            <input class="size" type="checkbox" id="<%= key %>" name="<%= key %>" value="<%= value %>">
+          </li>
+        <% } %>
+
+      <% } %>
+    </ul>
+
+  <% } %>

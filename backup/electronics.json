@@ -1,0 +1,62 @@
+[{
+    "category": "laptop",
+    "genre": "Gaming",
+    "name": "Asus",
+    "model": "Q526FA-BI7T13",
+    "imageUrl": "./assets/images/laptop2.jpeg",
+    "price": 5999,
+    "currency": "GH₵",
+    "color": "silver",
+    "specs": {
+      "ram_size": "16GB",
+      "cpu": {
+        "brand": "10TH Gen Core i7-10510U ",
+        "speeelectronics_bakd": "3.2GHz"
+      },
+      "gpu": "Intel® UHD Graphics 620",
+      "drive": {
+          "name": "HDD",
+          "size": "1TB"
+      }
+    },
+    "os": "Windows 10 Pro",
+    "description": "Stay productive while on the go with this convertible ASUS laptop. The Intel Core i7 processor and 16GB of RAM offer high performance,   letting you work with multiple windows simultaneously for effortless multitasking, while the 15.6-inch Full HD touch display delivers stunning visuals.   This ASUS laptop has a 1TB HDD for file and application storage, while the 128GB SSD shortens load times.",
+    "more": "Windows 10 brings back the Start Menu from Windows 7 and introduces new features, like the Edge Web browser that lets you markup Web pages on your screen.",
+    "size": [
+      "15.6 Full HD multitouch screen",
+      1920,
+      1080
+    ],
+    "stock": 10,
+    "stores": {
+        "name": "boppiStore",
+        "location": "Accra",
+        "contact": "+233500360084"
+    }
+  },
+  {
+    "category": "phone",
+    "genre": "Smart",
+    "name": "iPhone X",
+    "model": "Apple",
+    "imageURL": "./assets/images/phone1.jpeg",
+    "price": 3500,
+    "currency": "GH₵",
+    "color": "black",
+    "specs": {
+      "drive": {
+          "name": "Internal",
+          "size": "128GB"
+      }
+    },
+    "os": "iOS",
+    "description": "Apple iPhone X has a beautiful 5.8-inch Super Retina display which is the first OLED panel that rises to the standards of iPhone, with stunning colours, true blacks, a million-to-one contrast ratio and wide colour support. The phone comes with Face ID, a Powerful and Secure Authentication System with advanced depth-sensing technologies that work together to securely unlock iPhone, enable Apple Pay, gain access to secure apps and many more new features",
+    "more": "Buy the Apple iPhone X on Jumia Ghana at an affordable price.",
+    "stock": 10,
+    "stores": {
+        "name": "boppiStore",
+        "location": "Accra",
+        "contact": "+233500360084"
+    }
+  }
+]

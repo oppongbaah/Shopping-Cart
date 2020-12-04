@@ -1,0 +1,366 @@
+[{
+  "category": "shirt",
+  "name": "Cerrbelos Long Sleeve Shirt",
+  "imageUrl": "assets/images/shirt1.jpg",
+  "price": 120,
+  "currency": "GH₵",
+  "description": "These longsleeve shirts are the best fit for your office grooves.They are made from comfortable and durable cotton fabric. You can pair with Jeans or Chinos alongside Loafers or even Sneakers for a smart touch - hese Shirts are ready for anything you’ve got on your official calendar. ",
+  "more": "Buy the 5 Pack Shirt online from Jumia Ghana at the best price and have it delivered right at your doorstep.",
+  "shirtSize": {
+    "S": 2,
+    "M": 2,
+    "L": 2,
+    "XL": 2,
+    "XXL": 2
+  },
+  "color": "White",
+  "stock": 10,
+  "stores": {
+    "name": "Ransbet Depo",
+    "location": "Tarkwa",
+    "contact": "+233546500699"
+  }
+},{
+  "category": "shirt",
+  "name": "Vintage Short Sleeve Stand Collar",
+  "imageUrl": "assets/images/shirt2.jpg",
+  "price": 32,
+  "currency": "GH₵",
+  "description": "Elegant and Classy, this Vintage Short Sleeve Shirt will be a great addition to your wardrobe. It takes you away from the usual  and Ties with its unique design, it's a perfect fit for your figure. Pair with Pant, Trousers and nice footwear for any special event.",
+  "more": "Buy now online from Jumia Ghana at the best price and have it delivered right to your doorstep.",
+  "shirtSize": {
+    "S": 2,
+    "M": 2,
+    "L": 2,
+    "XL": 2,
+    "XXL": 2
+  },
+  "color": "Multicolored",
+  "stock": 10,
+  "stores": {
+    "name": "Joko Stores",
+    "location": "Tarkwa",
+    "contact": "+233546500699"
+  }
+},{
+  "category": "shirt",
+  "name": "Round Neck Short Sleeve T-Shirt",
+  "imageUrl": "assets/images/shirt3.jpg",
+  "price": 55,
+  "currency": "GH₵",
+  "description": "These comfy T-Shirts are the best fit for your casual grooves.   They are made from comfortable and durable cotton fabric. You can pair with Jeans or Chinos alongside Loafers or even Sneakers for a smart touch - these T-Shirts are ready for anything you’ve got on your casual calendar.",
+  "more": "Order for this Bundle of 3 T-Shirts now on Jumia and have it delivered right at your door step. ",
+  "shirtSize": {
+    "S": 2,
+    "M": 2,
+    "L": 2,
+    "XL": 2,
+    "XXL": 2
+  },
+  "stock": 10,
+  "color": "Navy Blue",
+  "stores": {
+    "name": "Banlyd",
+    "location": "Sunyani",
+    "contact": "+233500360084"
+  }
+},
+{
+  "category": "shirt",
+  "name": "Light Bulb Print Short Sleeve T-Shirt",
+  "imageUrl": "assets/images/shirt4.jpg",
+  "price": 50,
+  "currency": "GH₵",
+  "description": "These comfy T-Shirts are the best fit for your casual grooves.   They are made from comfortable and durable cotton fabric. You can pair with Jeans or Chinos alongside Loafers or even Sneakers for a smart touch - these T-Shirts are ready for anything you’ve got on your casual calendar.",
+  "more": "Order for this Bundle of 3 T-Shirts now on Jumia and have it delivered right at your door step. ",
+  "shirtSize": {
+    "S": 2,
+    "M": 2,
+    "L": 2,
+    "XL": 2,
+    "XXL": 2
+  },
+  "stock": 10,
+  "color": "Navy Blue",
+  "stores": {
+    "name": "Banlyd",
+    "location": "Sunyani",
+    "contact": "+233500360084"
+  }
+},
+{
+  "category": "dress",
+  "name": "Stripped Slanted Shoulder Shirt Dress With Belt ",
+  "imageUrl": "assets/images/dress1.jpg",
+  "price": 32,
+  "currency": "GH₵",
+  "description": "Dresses bring out elegance out of women. Get this stylish Floral Sleeveless Dress for your varied outings. Its flare design makes it   perfect for elegant functions, and its floral look makes it great for hang-outs while maintaining a chic appearance. ",
+  "more": "Due to the manual measurement and different measurement methods, please allow 1-3cm deviation. Thanks.",
+  "color": "Pink",
+  "stock": 10,
+  "stores": {
+    "name": "Banlyd",
+    "location": "Sunyani",
+    "contact": "+233500360084"
+  },
+  "shirtSize": {
+    "S": 2,
+    "M": 2,
+    "L": 2,
+    "XL": 2,
+    "XXL": 2
+  }
+},
+{
+  "category": "dress",
+  "name": "Short Sleeve Boat Neck Loose Dress With Belt",
+  "imageUrl": "assets/images/dress2.jpg",
+  "price": 55,
+  "currency": "GH₵",
+  "description": "Dresses bring out elegance out of women. Get this stylish Floral Sleeveless Dress for your varied outings. Its flare design makes it   perfect for elegant functions, and its floral look makes it great for hang-outs while maintaining a chic appearance. ",
+  "more": "Due to the manual measurement and different measurement methods, please allow 1-3cm deviation. Thanks.",
+  "color": "Pink",
+  "stock": 10,
+  "stores": {
+    "name": "Banlyd",
+    "location": "Sunyani",
+    "contact": "+233500360084"
+  },
+  "shirtSize": {
+    "S": 2,
+    "M": 2,
+    "L": 2,
+    "XL": 2,
+    "XXL": 2
+  }
+},
+{
+  "category": "dress",
+  "name": "Office Dress Zipper Detail Bodycon Dress",
+  "imageUrl": "assets/images/dress3.jpg",
+  "price": 45,
+  "currency": "GH₵",
+  "description": "Dresses bring out elegance out of women. Get this stylish Floral Sleeveless Dress for your varied outings. Its flare design makes it   perfect for elegant functions, and its floral look makes it great for hang-outs while maintaining a chic appearance. ",
+  "more": "Due to the manual measurement and different measurement methods, please allow 1-3cm deviation. Thanks.",
+  "color": "Pink",
+  "stock": 10,
+  "stores": {
+    "name": "Banlyd",
+    "location": "Sunyani",
+    "contact": "+233500360084"
+  },
+  "shirtSize": {
+    "S": 2,
+    "M": 2,
+    "L": 2,
+    "XL": 2,
+    "XXL": 2
+  }
+},
+{
+  "category": "dress",
+  "name": "Women Sexy Strapless Slim",
+  "imageUrl": "assets/images/dress4.jpg",
+  "price": 7,
+  "currency": "GH₵",
+  "description": "Dresses bring out elegance out of women. Get this stylish Floral Sleeveless Dress for your varied outings. Its flare design makes it   perfect for elegant functions, and its floral look makes it great for hang-outs while maintaining a chic appearance. ",
+  "more": "Due to the manual measurement and different measurement methods, please allow 1-3cm deviation. Thanks.",
+  "color": "Pink",
+  "stock": 10,
+  "stores": {
+    "name": "Banlyd",
+    "location": "Sunyani",
+    "contact": "+233500360084"
+  },
+  "shirtSize": {
+    "S": 2,
+    "M": 2,
+    "L": 2,
+    "XL": 2,
+    "XXL": 2
+  }
+},
+{
+  "category": "suit",
+  "name": "2 in 1 Men's Casual Hooded Sports Suit",
+  "imageUrl": "assets/images/suit1.jpg",
+  "price": 98,
+  "currency": "GH₵",
+  "description": "Enhance your fashion sense with this bold slim fit suit, tailored to give you that up to date formal look. It has a Single front button and side pockets for that added touch of class.  bold and modern men's wear only on Jumia Ghana.",
+  "more": "Order for yours now on Jumia and have it delivered right at your doorstep",
+  "shirtSize": {
+    "S": 2,
+    "M": 2,
+    "L": 2,
+    "XL": 2,
+    "XXL": 2
+  },
+  "stock": 10,
+  "color": "Grey",
+  "stores": {
+    "name": "boppiStore",
+    "location": "Accra",
+    "contact": "+233500360084"
+  }
+},
+{
+  "category": "suit",
+  "name": "Men's suit leisure sports two-piece suit",
+  "imageUrl": "assets/images/suit2.jpg",
+  "price": 73,
+  "currency": "GH₵",
+  "description": "Enhance your fashion sense with this bold slim fit suit, tailored to give you that up to date formal look. It has a Single front button and side pockets for that added touch of class.  bold and modern men's wear only on Jumia Ghana.",
+  "more": "Order for yours now on Jumia and have it delivered right at your doorstep",
+  "shirtSize": {
+    "S": 2,
+    "M": 2,
+    "L": 2,
+    "XL": 2,
+    "XXL": 2
+  },
+  "stock": 10,
+  "color": "Grey",
+  "stores": {
+    "name": "boppiStore",
+    "location": "Accra",
+    "contact": "+233500360084"
+  }
+},
+{
+  "category": "suit",
+  "name": "Fashion slim casual one button small",
+  "imageUrl": "assets/images/suit3.jpg",
+  "price": 49,
+  "currency": "GH₵",
+  "description": "Enhance your fashion sense with this bold slim fit suit, tailored to give you that up to date formal look. It has a Single front button and side pockets for that added touch of class.  bold and modern men's wear only on Jumia Ghana.",
+  "more": "Order for yours now on Jumia and have it delivered right at your doorstep",
+  "shirtSize": {
+    "S": 2,
+    "M": 2,
+    "L": 2,
+    "XL": 2,
+    "XXL": 2
+  },
+  "stock": 10,
+  "color": "Grey",
+  "stores": {
+    "name": "boppiStore",
+    "location": "Accra",
+    "contact": "+233500360084"
+  }
+},
+{
+  "category": "suit",
+  "name": "Fashion Mens Formal Jacket",
+  "imageUrl": "assets/images/suit4.jpg",
+  "price": 215,
+  "currency": "GH₵",
+  "description": "Enhance your fashion sense with this bold slim fit suit, tailored to give you that up to date formal look. It has a Single front button and side pockets for that added touch of class.  bold and modern men's wear only on Jumia Ghana.",
+  "more": "Order for yours now on Jumia and have it delivered right at your doorstep",
+  "shirtSize": {
+    "S": 2,
+    "M": 2,
+    "L": 2,
+    "XL": 2,
+    "XXL": 2
+  },
+  "stock": 10,
+  "color": "Grey",
+  "stores": {
+    "name": "boppiStore",
+    "location": "Accra",
+    "contact": "+233500360084"
+  }
+},
+{
+  "category": "shoe",
+  "name": "Low-Top Lace Up Sneakers",
+  "imageUrl": "assets/images/shoe1.jpg",
+  "price": 80,
+  "currency": "GH₵",
+  "description": "Update your collection with this pair shoes for the absolute care free look‎.‎ Simple elegant and crafted from fine canvas with a sole that  allows for solid traction,‎‎ this fabulous pair of lace‐up Canvas is a fantastic addition to your collections.‎‎ Comfortable classy canvas for sports and casual purposes.",
+  "more": "Order now on Jumia Ghana at the best price and have it delivered at your doorstep.",
+  "shoeSize": {
+    "40": 2,
+    "41": 2,
+    "42": 2,
+    "43": 2,
+    "44": 2
+  },
+  "stock": 10,
+  "stores": {
+    "name": "boppiStore",
+    "location": "Accra",
+    "contact": "+233500360084"
+  },
+  "color": "Black"
+},
+{
+  "category": "shoe",
+  "name": "Low-Top Lace Up Athletic Sneakers",
+  "imageUrl": "assets/images/shoe2.jpg",
+  "price": 90,
+  "currency": "GH₵",
+  "description": "Update your collection with this pair shoes for the absolute care free look‎.‎ Simple elegant and crafted from fine canvas with a sole that  allows for solid traction,‎‎ this fabulous pair of lace‐up Canvas is a fantastic addition to your collections.‎‎ Comfortable classy canvas for sports and casual purposes.",
+  "more": "Order now on Jumia Ghana at the best price and have it delivered at your doorstep.",
+  "shoeSize": {
+    "40": 2,
+    "41": 2,
+    "42": 2,
+    "43": 2,
+    "44": 2
+  },
+  "stock": 10,
+  "stores": {
+    "name": "boppiStore",
+    "location": "Accra",
+    "contact": "+233500360084"
+  },
+  "color": "Black"
+},
+{
+  "category": "shoe",
+  "name": "Casual Low-Top Lace Up Sneakers",
+  "imageUrl": "assets/images/shoe3.jpg",
+  "price": 100,
+  "currency": "GH₵",
+  "description": "Update your collection with this pair shoes for the absolute care free look‎.‎ Simple elegant and crafted from fine canvas with a sole that  allows for solid traction,‎‎ this fabulous pair of lace‐up Canvas is a fantastic addition to your collections.‎‎ Comfortable classy canvas for sports and casual purposes.",
+  "more": "Order now on Jumia Ghana at the best price and have it delivered at your doorstep.",
+  "shoeSize": {
+    "40": 2,
+    "41": 2,
+    "42": 2,
+    "43": 2,
+    "44": 2
+  },
+  "stock": 10,
+  "stores": {
+    "name": "boppiStore",
+    "location": "Accra",
+    "contact": "+233500360084"
+  },
+  "color": "Black"
+},
+{
+  "category": "shoe",
+  "name": "Slip On Casual Loafer + Free Belt",
+  "imageUrl": "assets/images/shoe4.jpg",
+  "price": 100,
+  "currency": "GH₵",
+  "description": "Update your collection with this pair shoes for the absolute care free look‎.‎ Simple elegant and crafted from fine canvas with a sole that  allows for solid traction,‎‎ this fabulous pair of lace‐up Canvas is a fantastic addition to your collections.‎‎ Comfortable classy canvas for sports and casual purposes.",
+  "more": "Order now on Jumia Ghana at the best price and have it delivered at your doorstep.",
+  "shoeSize": {
+    "40": 2,
+    "41": 2,
+    "42": 2,
+    "43": 2,
+    "44": 2
+  },
+  "stock": 10,
+  "stores": {
+    "name": "boppiStore",
+    "location": "Accra",
+    "contact": "+233500360084"
+  },
+  "color": "Black"
+}]

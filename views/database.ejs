@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/database.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="scripts/src/database.js" charset="utf-8" type="module" defer></script>
+    <title>admin configurations</title>
+  </head>
+  <body>
+    <div class="main">
+      <h1>Database Configurations </h1>
+      <a id="clear" href= <%= clearAPI %> > Clear Documents </a>
+      <a id="create" href= <%= createAPI %> > Create Collections </a>
+      <a id="upload" href= <%= uploadAPI %> > Upload Documents </a>
+      <a href="/"> Start Application </a>
+    </div>
+  </body>
+</html>

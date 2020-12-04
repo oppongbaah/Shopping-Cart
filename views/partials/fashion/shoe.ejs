@@ -1,0 +1,10 @@
+<header>
+  <h2>Classic Shoes</h2>
+</header>
+<ul>
+  <% for(let i = 0; i < fashion.length; i++) { %>
+    <% if(fashion[i].category == "shoe") { %>
+      <%- include("../item.ejs", {item: fashion[i]}) %>
+    <% } %>
+  <% } %>
+</ul>

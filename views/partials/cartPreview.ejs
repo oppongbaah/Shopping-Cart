@@ -1,0 +1,44 @@
+<div class="container">
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div id="main-modal" class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 id="cart-title" class="modal-title">
+            Cart Preview - Total Cash: <%= item.currency %>  <%= item.price %> </h4>
+        </div>
+
+        <div id="content-modal" class="modal-body">
+          <ul>
+            <li>
+              <div class="cart-image">
+                <img src="/<%= item.imageUrl%>" alt="">
+              </div>
+              <div class="cart-info">
+                <div class=""> <h2> <%= item.category %> </h2> </div>
+                <div class=""> <h2> <%= item.name %> </h2> </div>
+              </div>
+              <div class="cart-price">
+                <div class=""> <h2> <%= item.currency %> </h2> </div>
+                <div class=""> <h2> <%= item.price %> </h2> </div>
+              </div>
+              <div class="cart-delete">
+                <a href="#"> <span class="glyphicon glyphicon-trash"></span> </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="modal-footer">
+          <a><button id="view-cart" type="button" class="btn btn-danger">
+            View Chart and Check Out</button></a>
+          <a><button id="continue" type="button" class="btn btn-primary">
+            Continue Shopping</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

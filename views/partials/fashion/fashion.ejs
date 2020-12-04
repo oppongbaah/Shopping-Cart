@@ -1,0 +1,127 @@
+
+  <div id="items" class="container-fluid bg-3 text-center">
+
+
+    <% for(let i = 0; i < 5; i++) { %>
+
+    <h1>McMohen's Collection</h1><br>
+    <div id="container" class="row">
+      <% for(let i = 0; i < fashion.length; i++) { %>
+        <% if (fashion[i].category === "shirt") { %>
+          <div id="store" class="col-sm-3">
+            <a href="/product-details/<%= fashion[i]._id %>"><img src="<%= fashion[i].imageUrl %>"
+               class="img-responsive" alt="Image"></a>
+            <p id="price"> <%= fashion[i].currency %> <%= fashion[i].price %></p>
+            <p id="name"><%= fashion[i].name %></p>
+          </div>
+        <% } %>
+      <% } %>
+    </div>
+
+    <% } %>
+
+  </div><br>
+
+  <!-- <div id="store" class="col-sm-3">
+    <a href="/product-details/<%= fashion[1]._id %> "><img src="<%= fashion[1].imageUrl %>" class="img-responsive" alt="Image"></a>
+    <p id="price"> <%= fashion[1].currency %> <%= fashion[1].price %></p>
+    <p id="name"><%= fashion[1].name %></p>
+  </div>
+  <div id="store" class="col-sm-3">
+    <a href="/product-details/<%= fashion[2]._id %> ">
+      <img src="<%= fashion[2].imageUrl %>" class="img-responsive" alt="Image">
+    </a>
+    <p id="price"> <%= fashion[2].currency %> <%= fashion[2].price %></p>
+    <p id="name"><%= fashion[2].name %></p>
+  </div>
+  <div id="store" class="col-sm-3">
+    <a href="/product-details/<%= fashion[3]._id %> "><img src="<%= fashion[3].imageUrl %>" class="img-responsive" alt="Image"></a>
+    <p id="price"> <%= fashion[3].currency %> <%= fashion[3].price %></p>
+    <p id="name"><%= fashion[3].name %></p>
+  </div> -->
+
+
+
+
+
+
+<!-- <div id="items" class="container-fluid bg-3 text-center">
+  <h1>Dawson's Collection</h1><br>
+  <div id="container" class="row">
+    <div id="store" class="col-sm-3">
+      <a href="/product-details/<%= fashion[4]._id %> "><img src="<%= fashion[4].imageUrl %>" class="img-responsive" alt="Image"></a>
+      <p id="price"> <%= fashion[4].currency %> <%= fashion[4].price %></p>
+      <p id="name"><%= fashion[4].name %></p>
+    </div>
+    <div id="store" class="col-sm-3">
+      <a href="/product-details/<%= fashion[5]._id %> "><img src="<%= fashion[5].imageUrl %>" class="img-responsive" alt="Image"></a>
+      <p id="price"> <%= fashion[5].currency %> <%= fashion[5].price %></p>
+      <p id="name"><%= fashion[5].name %></p>
+    </div>
+    <div id="store" class="col-sm-3">
+      <a href="/product-details/<%= fashion[6]._id %> "><img src="<%= fashion[6].imageUrl %>" class="img-responsive" alt="Image"></a>
+      <p id="price"> <%= fashion[6].currency %> <%= fashion[6].price %></p>
+      <p id="name"><%= fashion[6].name %></p>
+    </div>
+    <div id="store" class="col-sm-3">
+      <a href="/product-details/<%= fashion[7]._id %> "><img src="<%= fashion[7].imageUrl %>" class="img-responsive" alt="Image"></a>
+      <p id="price"> <%= fashion[7].currency %> <%= fashion[7].price %></p>
+      <p id="name"><%= fashion[7].name %></p>
+    </div>
+  </div>
+</div>
+<br><br>
+
+<div id="items" class="container-fluid bg-3 text-center">
+  <h1>Cummin's Collection</h1><br>
+  <div id="container" class="row">
+    <div id="store" class="col-sm-3">
+      <a href="/product-details/<%= fashion[8]._id %> "><img src="<%= fashion[8].imageUrl %>" class="img-responsive" alt="Image"></a>
+      <p id="price"> <%= fashion[8].currency %> <%= fashion[8].price %></p>
+      <p id="name"><%= fashion[8].name %></p>
+    </div>
+    <div id="store" class="col-sm-3">
+      <a href="/product-details/<%= fashion[9]._id %> "><img src="<%= fashion[9].imageUrl %>" class="img-responsive" alt="Image"></a>
+      <p id="price"> <%= fashion[9].currency %> <%= fashion[9].price %></p>
+      <p id="name"><%= fashion[9].name %></p>
+    </div>
+    <div id="store" class="col-sm-3">
+      <a href="/product-details/<%= fashion[10]._id %> "><img src="<%= fashion[10].imageUrl %>" class="img-responsive" alt="Image"></a>
+      <p id="price"> <%= fashion[10].currency %> <%= fashion[10].price %></p>
+      <p id="name"><%= fashion[10].name %></p>
+    </div>
+    <div id="store" class="col-sm-3">
+      <a href="/product-details/<%= fashion[11]._id %> "><img src="<%= fashion[11].imageUrl %>" class="img-responsive" alt="Image"></a>
+      <p id="price"> <%= fashion[11].currency %> <%= fashion[11].price %></p>
+      <p id="name"><%= fashion[11].name %></p>
+    </div>
+  </div>
+</div>
+<br><br>
+
+<div id="items" class="container-fluid bg-3 text-center">
+  <h1>Fitz Patrick's Collection</h1><br>
+  <div id="container" class="row">
+    <div id="store" class="col-sm-3">
+      <a href="/product-details/<%= fashion[12]._id %> "><img src="<%= fashion[12].imageUrl %>" class="img-responsive" alt="Image"></a>
+      <p id="price"> <%= fashion[12].currency %> <%= fashion[12].price %></p>
+      <p id="name"><%= fashion[12].name %></p>
+    </div>
+    <div id="store" class="col-sm-3">
+      <a href="/product-details/<%= fashion[13]._id %> "><img src="<%= fashion[13].imageUrl %>" class="img-responsive" alt="Image"></a>
+      <p id="price"> <%= fashion[13].currency %> <%= fashion[13].price %></p>
+      <p id="name"><%= fashion[13].name %></p>
+    </div>
+    <div id="store" class="col-sm-3">
+      <a href="/product-details/<%= fashion[14]._id %> "><img src="<%= fashion[14].imageUrl %>" class="img-responsive" alt="Image"></a>
+      <p id="price"> <%= fashion[14].currency %> <%= fashion[14].price %></p>
+      <p id="name"><%= fashion[14].name %></p>
+    </div>
+    <div id="store" class="col-sm-3">
+      <a href="/product-details/<%= fashion[15]._id %> "><img src="<%= fashion[15].imageUrl %>" class="img-responsive" alt="Image"></a>
+      <p id="price"> <%= fashion[15].currency %> <%= fashion[15].price %></p>
+      <p id="name"><%= fashion[15].name %></p>
+    </div>
+  </div>
+</div>
+<br><br> -->

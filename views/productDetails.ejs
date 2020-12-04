@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> <%= item.name %> </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=El+Messiri:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/styles/navigation.css">
+    <link rel="stylesheet" href="/styles/footer.css">
+    <link rel="stylesheet" href="/styles/floatingCart.css">
+    <link rel="stylesheet" href="/styles/cartPreview.css">
+    <link rel="stylesheet" href="/styles/productDetails.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script src="/scripts/src/productDetails.js" type="module" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <%- include("./partials/navigationBar.ejs", {fashion: item}) %>
+    </header>
+    <main id="main" class="main-container">
+
+      <div class="image-container">
+        <%- include("./partials/imageSlider.ejs", {fashion: item}) %>
+        <%- include("./partials/colors.ejs", {fashion: item}) %>
+      </div>
+
+      <div class="info-container">
+        <div class="main-info-container">
+          <h1 id="itemName"> <%= item.name %> </h1>
+          <p><%= item.description %></p>
+          <p><%= item.more %></p>
+          <%- include("./partials/starRating.ejs", {fashion: item}) %>
+          <h2 id="itemPrice"><%= item.currency %> <%= item.price %></h2>
+        </div>
+        <div class="sizes">
+          <%- include("./partials/sizes.ejs", {fashion: item}) %>
+        </div>
+        <div class="quantity">
+          <%- include("./partials/quantity.ejs") %>
+        </div>
+        <div class="add-to-cart">
+          <button class="btn btn-primary" type="button" name="button"  data-toggle="modal"
+           data-target="#myModal">Add To Cart</button>
+        </div>
+      </div>
+
+      <div class="side-container">
+        <%- include("./partials/storeInfo.ejs") %>
+      </div>
+    </main>
+
+    <%- include("./partials/floatingCart.ejs", {fashion: item}) %>
+
+    <%- include("./partials/cartPreview.ejs", {item: item}) %>
+
+    <footer>
+      <%- include("./partials/footer.ejs") %>
+    </footer>
+  </body>
+</html>

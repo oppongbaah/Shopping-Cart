@@ -1,0 +1,10 @@
+<header>
+  <h2>Computing</h2>
+</header>
+<ul>
+  <% for(let i = 0; i < electronic.length; i++) { %>
+    <% if(electronic[i].category == "laptop") { %>
+      <%- include("../item.ejs", {item: electronic[i]}) %>
+    <% } %>
+  <% } %>
+</ul>

@@ -1,0 +1,50 @@
+#navbar-header {
+  margin: 0;
+}
+
+#first-nav, #second-nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+  background-color: black;
+  margin: 0;
+  border-radius: 0;
+}
+
+#first-nav a, #second-nav a {
+  color: white;
+  background-color: black;
+  font-size: 16px;
+  font-weight: bolder;
+  vertical-align: middle;
+}
+
+#first-nav a:hover, #first-nav a:hover {
+  color: tomato;
+}
+
+#second-nav {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  #second-nav {
+    display: block;
+  }
+
+  #first-nav {
+    display: none;
+  }
+}
+
+@media (max-width: 765px) {
+  #first-nav {
+    display: block;
+  }
+
+  #second-nav {
+    display: none;
+  }
+}

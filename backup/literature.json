@@ -1,0 +1,19 @@
+[{
+  "category": "books",
+  "name": "The Splendid and the Vile",
+  "imageUrl": "./assets/images/book3.jpeg",
+  "price": 10,
+  "currency": "GH₵",
+  "stock": 10,
+  "author": "Erik Larson",
+  "stores": [
+    {
+      "name": "boppiStore",
+      "location": "Accra",
+      "contact": "+233500360084"
+    }
+  ],
+  "description": "MEDITATION AND CONTEMPLATION explains that in esoteric practices, meditation is incomplete without contemplation, and contemplation is void without meditation, contemplation being the analysis and interpretation   of whatever one has arrived at through meditation. The reader will find in the book the technique of contemplation and guidelines on how to be highly receptive and hypersensitive to vibratory impressions and cosmic impulses.",
+  "more": "A saga of chue=rchhill, family and defence during world war II"
+}
+]

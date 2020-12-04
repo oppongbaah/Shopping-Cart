@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+}
+
+#main-modal {
+  width: 60vw;
+  margin-top: 10%;
+}
+
+#cart-title {
+  font-weight: bolder;
+  font-size: 20px;
+  color: black;
+  font-family: 'El Messi  ri', sans-serif;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+#content-modal {
+  margin: 0;
+  padding: 0;
+  height: 15vh;
+}
+
+#view-cart, #continue {
+  padding: 10px;
+  width: 200px;
+  font-family: 'El Messi  ri', sans-serif;
+  font-weight: bolder;
+  font-size: 2vmin;
+}
+
+.modal-body li {
+  list-style-type: none;
+  display: flex;
+}
+
+.modal-body ul {
+  padding: 0;
+}
+
+.cart-image, .cart-info, .cart-price, .cart-delete {
+  height: 15vh;
+  margin-left: 10px;
+}
+
+.cart-image {
+  /* background-color: red; */
+  width: 25%;
+}
+
+.cart-image > img {
+  width: auto;
+  height: 100%;
+}
+
+.cart-info {
+  /* background-color: green; */
+  width: 50%;
+}
+
+.cart-info > div:first-of-type {
+  /* background-color: pink; */
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #087685;
+}
+
+.cart-info > div:last-of-type {
+  /* background-color: purple; */
+  height: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.cart-info > div:first-of-type > h2,
+.cart-info > div:last-of-type > h2 {
+  margin: 0;
+  font-size: 2vmax;
+}
+
+.cart-price {
+  /* background-color: yellow; */
+  width: 10%;
+}
+
+.cart-price > div:first-of-type {
+  /* background-color: pink; */
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #087685;
+}
+
+.cart-price > div:last-of-type {
+  /* background-color: purple; */
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: tomato;
+}
+
+.cart-price > div:first-of-type > h2,
+.cart-price > div:last-of-type > h2 {
+  margin: 0;
+  font-size: 2vmax;
+}
+
+.cart-price > div:first-of-type > h2 {
+  font-size: 1.5rem;
+}
+
+.cart-delete {
+  /* background-color: blue; */
+  width: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-delete > a {
+  margin-top: 40%;
+}

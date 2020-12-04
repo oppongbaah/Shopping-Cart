@@ -1,0 +1,38 @@
+[
+  {
+    "category": "home",
+    "name": "Electric Kettle",
+    "imageUrl": "./assets/images/electrical1.jpeg",
+    "price": 53,
+    "currency": "GH₵",
+    "stock": 10,
+    "brand": "Scarlett",
+    "stores": [
+      {
+        "name": "boppiStore",
+        "location": "Accra",
+        "contact": "+233500360084"
+      }
+    ],
+    "description": "Making a cup of hot tea or coffee? Get this Scarlett 2.0 Litres Kettle for all your coffees and tea. It is very efficient and guarantees sound performance at all times. Scarlett creates products that are just right for your needs, durable and suited for your environment, at the right price.",
+    "more": "Stop waiting 10+ minutes for water on the stove to get hot. This Scarlett kettle brings the heat quicker than any stove-top kettle. And with our automatic shut-off, it’s perfect for offices or homes. Get this Cordless Electric Kettle with 1.8 Litres water capacity and one-touch automatic opening."
+  },
+  {
+    "category": "home",
+    "name": "Single Tub Washing Machine",
+    "image": "./assets/images/electrical2.jpeg",
+    "price": 345,
+    "currency": "GH₵",
+    "stock": 10,
+    "brand": "ICONA ILWM-75 ST",
+    "stores": [
+      {
+        "name": "boppiStore",
+        "location": "Accra",
+        "contact": "+233500360084"
+      }
+    ],
+    "description": "The Icona ILWM - 75 ST Single Tub Washing Machine is a reliable laundry help. It is easy to use and features a light-weight design, so you can move it around the house easily. The washing machine with its useful features effortlessly combines style and functionality, making it both efficient and user-friendly.",
+    "more": "Buy the Icona ILWM - 75 ST Washing Machine online from Jumia Ghana at the best price and have it delivered right at your doorstep."
+  }
+]
